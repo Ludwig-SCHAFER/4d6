@@ -1,0 +1,39 @@
+table, tbody{
+	border-collapse:collapse;
+	border:3px solid black;
+}
+thead th, tfoot td, tr td{
+	border:1px solid black;
+	text-align:right;
+}
+
+tbody tr:nth-child(even){
+	background-color: #EEF;
+}
+tbody tr:nth-child(odd){
+	background-color: #EFE;
+}
+
+tbody tr:nth-child(even):hover{
+	background-color: #FFF;
+}
+tbody tr:nth-child(odd):hover{
+	background-color: #FFF;
+}
+tbody tr:hover {
+	font-weight:bold;
+}
+
+tbody tr td:not(:first-child){
+	font-size:2em;
+}
+
+.minVal{
+	background:#CC8080 !important;
+}
+.changedVal{
+	background:#FFB000 !important;
+}
+#animation{
+	font-size: 6em;
+}

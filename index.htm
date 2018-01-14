@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>&#127922; 4d6 drop lowest and retry until you roll a quad 6</title>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<h1>
+			&#127922;
+			<span id="animation0">&#127922;</span>
+			<span id="animation1">&#127922;</span>
+			<span id="animation2">&#127922;</span>
+			<span id="animation3">&#127922;</span>
+			4d6 drop lowest and retry until you roll only 6s</h1>
+		<h2>Règles</h2>
+		<ol>
+			<li>&#9856; Roll 4 6-sided dices.</li>
+			<li>&#9857; Reroll the lowest dice.</li>
+			<li>&#9858; Retry until there are only 6s.</li>
+		</ol>
+		<ul>
+			<li>&#9859; Dices icons used on this webpage are unicode characters.</li>
+			<li>&#9860; Edit the <em>SIZE</em> variable in the script to roll more or less dices.</li>
+			<li>&#9861; Good luck.</li>
+		</ul>
+		<p>
+			Minimal value is displayed in <span class="minVal">red</span>.<br />
+			The rerolled value is displayed in <span class="changedVal">gold</span>.<br />
+		</p>
+		<hr />
+		<p>
+			<button onclick="start()" id="datbutton">Click to (re)roll</button><br />
+			It took <span id="lancers">n</span> rolls (<span id="stats"></span>)
+		</p>
+		<table>
+			<thead>
+				<tr>
+					<th scope="col">alerte</th>
+				</tr>
+			</thead>
+			<tfoot>
+				<tr>
+					<td>alerte</td>
+				</tr>
+			</tfoot>
+			<tbody id="tbody">
+				<tr>
+					<td>Javascript désactivé</td>
+				</tr>
+			</tbody>
+		</table>
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
