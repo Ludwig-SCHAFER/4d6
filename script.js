@@ -17,7 +17,7 @@ function start()
 
 	//generate start values
 	for (var i = 0; i < dices.length; i++) {
-		dices[i] = roll(0); //'1' = all dices at 1, n = all dices between 1 and n !
+		dices[i] = roll(6); //'1' = all dices at 1, n = all dices between 1 and n !
 	}
 
 	//clear table
